@@ -2,9 +2,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
-
 .botoes{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+}
+.calculadora{
+        transform: scale(3.5);
+        margin-top: 300px;
 }
