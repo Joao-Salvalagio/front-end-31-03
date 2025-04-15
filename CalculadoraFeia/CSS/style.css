@@ -1,0 +1,16 @@
+*{
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    padding: 5px;
+    width: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+input {
+    border-radius: 5px;
+    padding: 4px;
+}

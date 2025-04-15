@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora bonita</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <div class="display">
+            <input type="text" id="tela" readonly>
+        </div>
+        <div class="botoes">
+            <button onclick="expressao('7')" class="btcinza">7</button>
+            <button onclick="expressao('8')" class="btcinza">8</button>
+            <button onclick="expressao('9')" class="btcinza">9</button>
+            <button onclick="expressao('*')" class="btlaranja">*</button>
+            
+            <button onclick="expressao('4')" class="btcinza">4</button>
+            <button onclick="expressao('5')" class="btcinza">5</button>
+            <button onclick="expressao('6')" class="btcinza">6</button>
+            <button onclick="expressao('-')" class="btlaranja">-</button>
+            
+            <button onclick="expressao('1')" class="btcinza">1</button>
+            <button onclick="expressao('2')" class="btcinza">2</button>
+            <button onclick="expressao('3')" class="btcinza">3</button>
+            <button onclick="expressao('+')" class="btlaranja">+</button>
+            
+            <button onclick="limpar()" class="btlaranja">AC</button>
+            <button onclick="expressao('0')" class="btcinza">0</button>
+            <button class="btlaranja">/</button>
+            <button onclick="resultado()" class="btlaranja">=</button>
+        </div>
+    </div>
+    <script src="Js/script.js"></script>
+</body>
+</html>
